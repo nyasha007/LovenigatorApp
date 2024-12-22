@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../App';
-import { WELCOME_IMAGE } from '../constants/images';
 
 type WelcomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Welcome'>;
 
